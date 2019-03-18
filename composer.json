@@ -1,0 +1,35 @@
+{
+    "name": "gjpbw/date-ago",
+    "description": "Format date. DateAgo for Laravel.",
+    "keywords": [
+        "laravel",
+        "date-ago",
+        "dateAgo"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitiy Lomakin",
+            "email": "gjpbw.ld@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "files": [
+            "/src/helpers.php"
+        ],
+        "psr-4": {
+            "Gjpbw\\DateAgo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gjpbw\\DateAgo\\DateAgoServiceProvider"
+            ]
+        }
+    }
+}
